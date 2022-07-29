@@ -1,11 +1,28 @@
 body{
     font-family: 'Lobster', cursive;
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .carousel-caption{
+        bottom: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+     }
+    .carousel-caption>h5{
+        font-size: 35px;
+        font-weight: 400;
+    }
 }
 .navbar-brand{
     font-size: 30px;
     font-weight: 700;
     color: #4A4A4A;
+}
+
+.carousel-section{
+    margin-bottom: 100px;
 }
 
 .carousel-caption{
@@ -29,6 +46,14 @@ body{
     border: 1px solid #2D9DDE;
     font-weight: 600;
 }
+.course-container>h1{
+    font-weight: 700;
+}
+.course-container>p{
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 50px;
+}
 
 .carousel-item::before{
     content: "";
@@ -41,4 +66,21 @@ body{
     background-color: #000000;
     opacity: 0.7;
 
+}
+.course-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.card-price{
+    text-decoration: none;
+    font-weight: 600;
+    color: #289BDE;
+}
+.card-text{
+    color: #777777;
+}
+.card-title{
+    color: #494949;
 }
