@@ -1,6 +1,7 @@
 body{
     font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
+background-color: #ffffff;
 }
 
 @media screen and (max-width: 576px) {
@@ -45,6 +46,7 @@ font-family: 'Poppins', sans-serif;
     color: #2D9DDE ;
     border: 1px solid #2D9DDE;
     font-weight: 600;
+    margin-left: 200px;
 }
 .course-container>h1{
     font-weight: 700;
@@ -132,6 +134,27 @@ font-family: 'Poppins', sans-serif;
 }
 .footer-end{
     width: 100%;
-    height: 300px;
-    background-color:#212529;
+    height: 400px;
+    background-color:#161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-end h2{
+    font-weight: 700;
+}
+.footer-end p{
+    color: #E8E8E8;
+}
+.footer-end a{
+    text-decoration: none;
+    color: #E8E8E8;
+}
+.footer-end i{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
 }
