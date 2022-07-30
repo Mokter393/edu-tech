@@ -97,7 +97,7 @@ background-color: #ffffff;
 }
 .join-row{
     display: flex;
-    justify-content:flex-end;
+    justify-content:right;
     align-items: center;
 }
 .join-dv{
